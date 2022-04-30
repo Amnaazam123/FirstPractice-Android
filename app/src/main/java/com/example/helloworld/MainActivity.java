@@ -1,3 +1,4 @@
+//Create a button, in clicking the button text is changed. 
 package com.example.helloworld;
 
 import androidx.appcompat.app.AppCompatActivity;
