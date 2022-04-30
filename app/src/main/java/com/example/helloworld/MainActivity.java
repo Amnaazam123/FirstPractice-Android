@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         button = findViewById(R.id.btn);
         textview = findViewById(R.id.txt);
+        //There are two methods of event listener.
         /*button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });*/
     }
-
+    //This function is explicitly set in onclick attribute of event or .xml file as well.
     public void writeText(View view) {
         textview.setText("I am clicked!");
     }
