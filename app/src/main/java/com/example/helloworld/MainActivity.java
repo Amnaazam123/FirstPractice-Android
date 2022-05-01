@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         button = findViewById(R.id.btn);
         textview = findViewById(R.id.txt);
-        //There are two methods of event listener.
+        //There are two methods of event listener. click listener is given below
         /*button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
